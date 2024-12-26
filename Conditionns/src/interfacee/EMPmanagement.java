@@ -10,6 +10,7 @@ public class EMPmanagement {
 		int id=sc.nextInt();
 		if(id>0)
 			
+			
 		{
 		System.out.println("enter the EMP name :");
 		String name=sc.nextLine();
