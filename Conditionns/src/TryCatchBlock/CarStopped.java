@@ -43,18 +43,18 @@ class carTest{
 	
 	public static void stop(String s) throws CarStopped
 	{
-		if(s.equals("stop"))
+		if(s.equalsIgnoreCase("stop"))
 		{
 			throw new CarStopped("order for car stop !");
 		}
-		else if(s.equals("go"))
+		else if(s.equalsIgnoreCase("go"))
 		{
 			System.out.println("car is not stalled");
 		}
 	}
 	public static void puncture(String s) throws CarPunctureException {
 		
-		if(s.equals("puncture"))
+		if(s.equalsIgnoreCase("puncture"))
 		{
 			throw new CarPunctureException("car is puncture !");
 		}

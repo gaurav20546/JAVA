@@ -1,7 +1,7 @@
 package TryCatchBlock;
 class thread1 implements Runnable
 {
-	private int avalbleSeat=2;
+	private int avalbleSeat=1;
 	private int NoofBookSeat;
 	
 	public thread1(int seat)
@@ -16,7 +16,7 @@ class thread1 implements Runnable
 		if(avalbleSeat>=NoofBookSeat)
 		{
 			avalbleSeat -=NoofBookSeat;
-			System.out.println(name+" "+NoofBookSeat+" Seat is booked  and avalable seats are "+avalbleSeat);
+			System.out.println(name+" "+NoofBookSeat+" Seate is booked  and avalable seats are "+avalbleSeat);
 		}
 		else 
 		{
